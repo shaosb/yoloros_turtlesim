@@ -6,4 +6,10 @@ Depend on
 2. ros_kinetic on ubuntu 16.04
 3. YOLO ROS in environment path
 
-The objec detection result publish on the topic <B> /darknet_ros/bounding_boxes </B> and use the mgsg <B> darknet_ros_msgs/Boundingboxes.msg </B>
+The objec detection result publish on the topic <B> /darknet_ros/bounding_boxes </B> 
+and use the mgsg <B> darknet_ros_msgs/Boundingboxes.msg </B>
+
+The robot turtlesim use the topic <B> /turtle1/cmd_vel </b> 
+and use the msge <B> geometry_msgs/Twist.msg </B>
+
+So this project receive the message of darknet_ros and send the instructions to the robot.
