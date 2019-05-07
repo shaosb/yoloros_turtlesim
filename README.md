@@ -6,4 +6,4 @@ Depend on
 2. ros_kinetic on ubuntu 16.04
 3. YOLO ROS in environment path
 
-The objec detection result publish on the topic /darknet_ros/bounding_boxes
+The objec detection result publish on the topic <B> /darknet_ros/bounding_boxes </B> and use the mgsg <B> darknet_ros_msgs/Boundingboxes.msg </B>
